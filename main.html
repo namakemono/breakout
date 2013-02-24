@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <style>
+      .field {
+        width: 300px;
+        height: 600px;
+        background-color: #AAA;
+      }
+      .tile-blue {
+        position: absolute;
+        color: #fff;
+        border: 3px inset #ccc;
+        width: 18px;
+        height: 18px;
+        background: -webkit-gradient(linear, left top, left bottom, from(#9999CC), to(#000033));
+      }
+      .ball {
+        position: absolute;
+        width: 8px;
+        height: 8px;
+      }
+      .bar {
+        position: absolute;
+        color: #a00;
+        left: 135px;
+        top: 550px;
+        width: 60px;
+        height: 5px;
+        border: 3px inset #00a;
+        background: -webkit-gradient(linear, left top, left bottom, from(#777733), to(#FFFFCC));
+      }
+    </style>
+    <script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="./js/invader.js"></script>
+  </head>
+  <body>
+    <div class="field">
+      <div class="bar"></div>
+      <img class="ball" src="./img/ball_black.png" />
+    </div>
+  </body>
+</html>
